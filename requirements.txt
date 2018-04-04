@@ -1,2 +1,4 @@
 requests2
 pinyin
+pypika
+mysql-connector
