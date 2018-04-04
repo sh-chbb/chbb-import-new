@@ -8,6 +8,7 @@ class Person:
     birthplace = ''
     desc = ''
     url = ''
+    images = []
 
     def __init__(self, name, gender, dob, job, nationality, birthplace, desc, url):
         self.name = name
