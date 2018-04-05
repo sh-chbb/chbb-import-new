@@ -11,7 +11,7 @@ class Person:
     url = ''
     images = []
 
-    def __init__(self, name, gender, dob, job, nationality, birthplace, desc, url):
+    def __init__(self, name, gender, dob, job, nationality, birthplace, desc, url, images):
         self.name = name
         self.gender = gender
         self.dob = dob
@@ -20,7 +20,7 @@ class Person:
         self.birthplace = birthplace
         self.desc = desc
         self.url = url
+        self.images = images
 
     def print_person(self):
         print("name: ", self.name)
-

@@ -2,3 +2,4 @@ requests2
 pinyin
 pypika
 mysql-connector
+baidu-aip
